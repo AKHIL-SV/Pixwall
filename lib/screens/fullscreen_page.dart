@@ -4,7 +4,6 @@ class FullScreen extends StatelessWidget {
   final List image2;
   final int index2;
   const FullScreen({super.key, required this.image2, required this.index2});
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(

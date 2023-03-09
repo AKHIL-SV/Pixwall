@@ -117,26 +117,29 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
-              child: TextField(
-                controller: _textController,
-                decoration: InputDecoration(
-                  contentPadding:
-                      const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
-                  hintText: 'Search',
-                  suffixIcon: IconButton(
-                    onPressed: () {
-                      _isTap = false;
-                      setState(() {
-                        query = _textController.text;
-                        _isloading = true;
-                        fetchapi();
-                      });
-                    },
-                    icon: const Icon(Icons.search_rounded),
-                  ),
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(30),
+              padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 7),
+              child: SizedBox(
+                height: 40,
+                child: TextField(
+                  controller: _textController,
+                  decoration: InputDecoration(
+                    contentPadding: const EdgeInsets.symmetric(
+                        vertical: 10, horizontal: 15),
+                    hintText: 'Search',
+                    suffixIcon: IconButton(
+                      onPressed: () {
+                        _isTap = false;
+                        setState(() {
+                          query = _textController.text;
+                          _isloading = true;
+                          fetchapi();
+                        });
+                      },
+                      icon: const Icon(Icons.search_rounded),
+                    ),
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(30),
+                    ),
                   ),
                 ),
               ),
