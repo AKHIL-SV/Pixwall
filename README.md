@@ -19,5 +19,4 @@ samples, guidance on mobile development, and a full API reference.
 | ------ | ------ |
 | ![App Screenshot](https://user-images.githubusercontent.com/64737299/224696858-357a644f-11fe-4bfd-a9ac-57aaff8e1066.png) | ![donutappui](https://user-images.githubusercontent.com/64737299/224696675-84811ef3-ef28-414f-aa16-a52a2e9befb9.gif) |
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/64737299/224696675-84811ef3-ef28-414f-aa16-a52a2e9befb9.gif)
-![Screenshot_1678708027](https://user-images.githubusercontent.com/64737299/224696858-357a644f-11fe-4bfd-a9ac-57aaff8e1066.png)
+[Reference]([https://github.com/matiassingers/awesome-readme](https://dribbble.com/shots/14420340-Live-Wallpapers-App-Design/attachments/6098231?mode=media))
